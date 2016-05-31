@@ -1,0 +1,7 @@
+C:\Users\ericd\Desktop\PARAGRAPH\UnitTestProjectWordFinder\bin\Debug\UnitTestProjectWordFinder.dll
+C:\Users\ericd\Desktop\PARAGRAPH\UnitTestProjectWordFinder\bin\Debug\UnitTestProjectWordFinder.pdb
+C:\Users\ericd\Desktop\PARAGRAPH\UnitTestProjectWordFinder\bin\Debug\WebApplication13.dll
+C:\Users\ericd\Desktop\PARAGRAPH\UnitTestProjectWordFinder\bin\Debug\WebApplication13.pdb
+C:\Users\ericd\Desktop\PARAGRAPH\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectParagraphStatistics.csprojResolveAssemblyReference.cache
+C:\Users\ericd\Desktop\PARAGRAPH\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectWordFinder.dll
+C:\Users\ericd\Desktop\PARAGRAPH\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectWordFinder.pdb

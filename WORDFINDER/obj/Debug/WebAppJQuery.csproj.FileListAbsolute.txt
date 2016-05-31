@@ -1,0 +1,12 @@
+C:\Users\ericd\Desktop\WebApplication13\WebApplication13\bin\WebApplication13.dll.config
+C:\Users\ericd\Desktop\WebApplication13\WebApplication13\bin\WebApplication13.dll
+C:\Users\ericd\Desktop\WebApplication13\WebApplication13\bin\WebApplication13.pdb
+C:\Users\ericd\Desktop\WebApplication13\WebApplication13\obj\Debug\WebApplication13.dll
+C:\Users\ericd\Desktop\WebApplication13\WebApplication13\obj\Debug\WebApplication13.pdb
+C:\Users\ericd\Desktop\WebApplication13\WebApplication13\obj\Debug\WebAppJQuery.csprojResolveAssemblyReference.cache
+C:\Users\ericd\Desktop\WordStatistics\WebApplication13\bin\WebApplication13.dll.config
+C:\Users\ericd\Desktop\WordStatistics\WebApplication13\bin\WebApplication13.dll
+C:\Users\ericd\Desktop\WordStatistics\WebApplication13\bin\WebApplication13.pdb
+C:\Users\ericd\Desktop\WordStatistics\WebApplication13\obj\Debug\WebAppJQuery.csprojResolveAssemblyReference.cache
+C:\Users\ericd\Desktop\WordStatistics\WebApplication13\obj\Debug\WebApplication13.dll
+C:\Users\ericd\Desktop\WordStatistics\WebApplication13\obj\Debug\WebApplication13.pdb

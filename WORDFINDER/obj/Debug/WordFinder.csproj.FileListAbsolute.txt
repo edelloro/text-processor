@@ -1,0 +1,11 @@
+C:\Users\ericd\Desktop\WordStatistics\WebApplication13\bin\WebApplication13.dll.config
+C:\Users\ericd\Desktop\WordStatistics\WebApplication13\bin\WebApplication13.dll
+C:\Users\ericd\Desktop\WordStatistics\WebApplication13\bin\WebApplication13.pdb
+C:\Users\ericd\Desktop\WordStatistics\WebApplication13\obj\Debug\WebApplication13.dll
+C:\Users\ericd\Desktop\WordStatistics\WebApplication13\obj\Debug\WebApplication13.pdb
+C:\Users\ericd\Desktop\WORDFINDER\WORDFINDER\bin\WebApplication13.dll.config
+C:\Users\ericd\Desktop\WORDFINDER\WORDFINDER\bin\WebApplication13.dll
+C:\Users\ericd\Desktop\WORDFINDER\WORDFINDER\bin\WebApplication13.pdb
+C:\Users\ericd\Desktop\WORDFINDER\WORDFINDER\obj\Debug\WebApplication13.dll
+C:\Users\ericd\Desktop\WORDFINDER\WORDFINDER\obj\Debug\WebApplication13.pdb
+C:\Users\ericd\Desktop\WORDFINDER\WORDFINDER\obj\Debug\WordFinder.csprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+C:\Users\ericd\Desktop\WordStatistics\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectWordFinder.csprojResolveAssemblyReference.cache
+C:\Users\ericd\Desktop\WordStatistics\UnitTestProjectWordFinder\bin\Debug\UnitTestProjectWordFinder.dll
+C:\Users\ericd\Desktop\WordStatistics\UnitTestProjectWordFinder\bin\Debug\UnitTestProjectWordFinder.pdb
+C:\Users\ericd\Desktop\WordStatistics\UnitTestProjectWordFinder\bin\Debug\WebApplication13.dll
+C:\Users\ericd\Desktop\WordStatistics\UnitTestProjectWordFinder\bin\Debug\WebApplication13.pdb
+C:\Users\ericd\Desktop\WordStatistics\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectWordFinder.dll
+C:\Users\ericd\Desktop\WordStatistics\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectWordFinder.pdb
+C:\Users\ericd\Desktop\WORDFINDER\UnitTestProjectWordFinder\bin\Debug\UnitTestProjectWordFinder.dll
+C:\Users\ericd\Desktop\WORDFINDER\UnitTestProjectWordFinder\bin\Debug\UnitTestProjectWordFinder.pdb
+C:\Users\ericd\Desktop\WORDFINDER\UnitTestProjectWordFinder\bin\Debug\WebApplication13.dll
+C:\Users\ericd\Desktop\WORDFINDER\UnitTestProjectWordFinder\bin\Debug\WebApplication13.pdb
+C:\Users\ericd\Desktop\WORDFINDER\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectWordFinder.csprojResolveAssemblyReference.cache
+C:\Users\ericd\Desktop\WORDFINDER\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectWordFinder.dll
+C:\Users\ericd\Desktop\WORDFINDER\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectWordFinder.pdb
