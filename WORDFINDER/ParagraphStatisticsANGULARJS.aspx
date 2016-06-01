@@ -51,105 +51,109 @@
 
     <script>
 
-        var app = angular.module("myApp", []);
+            var app = angular.module("myApp", []);
 
-        app.controller('myController', function ($scope, $http) {
+            app.controller('myController', function ($scope, $http) {
 
-            //$scope.myRequest = "3";
-            //$scope.myResponse = "4";
+            $scope.textFilter = "ZORK ADVENTURE";
 
-            //$scope.textRequest = "Welcome to the Pleasure dome";
-            //$scope.textResponse = "";
-
-            //$scope.$watch("textRequest",
-            //    function (newValue, oldValue) {
-            //    /* change noticed */
-            //    //alert(oldValue);
-            //});
-
-
-
-            $scope.CallWebService = function () {
-
-                alert('WebServiceCalled');
-
-               
+            $scope.CallWebServiceInit = function () {
                 $http({
-
                     method:      'POST',
-                    url:         '/WebServiceStatistics.asmx/HelloJson',
-                    dataType:    'json',
-                //  data:        {'name':'ERIC123ERIC'},             
+                    url: '/WebServiceStatistics.asmx/GetZorkText',
+                    dataType: 'json',
+                    data: {}, //I GIVE YOU JSON PLEASE GIVE ME BACK JSON
+                    //data:   {name:'ERIC123ERIC'}             
                     contentType: 'application/json; charset=utf-8' 
-               
-
                 }).success(function (response) {
-
-                    alert('CALLED SUCCESS');
-
-                    //alert('success:\n' + JSON.stringify(response));
-                    //alert(response.payload);
-                  
-                    $scope.textRequest = response.payload;
-
-                    //$http({
-                    //        method: 'POST',
-                    //        url: "/WebServiceStatistics.asmx/GetTextStatistics",
-                    //        dataType: 'json',
-                    //        data: "{paragraph:'WELCOME TO ERIC THE APPLE OF MY EYE' , filter: 'ABCDEFG'   }",                          
-                    //        headers: { 'Content-Type': 'application/json; charset=utf-8' }
-
-                    //    }).success(function (response) {
-
-                    //        $scope.textResponse = response.payload;
-
-                    //    }).error(function (data, status, headers, config) {
-
-                    //        alert(data);
-                    //        alert(status);
-                    //        alert(headers);
-                    //        alert(config);
-
-                    //        $scope.textResponse = "ERROR";
-                    //    });
+                    var data = response.d;
+                    $scope.textRequest = data.payload;
                  
-                    alert('bbb');
-
-
+                    $http({
+                        method: 'POST',
+                        url: "/WebServiceStatistics.asmx/GetTextStatistics",
+                        dataType: 'json',
+                        data: { 'paragraph': escape(data.payload), filter: escape($scope.textFilter) },
+                        contentType: 'application/json; charset=utf-8'
+                    }).success(function (response) {
+                        var data = response.d;
+                        $scope.textResponse = data;
+                    }).error(function (data, status, headers, config) {
+                        alert('error');
+                        //$scope.textResponse = "ERROR";
+                    });
 
                 }).error(function (data, status, headers, config) {
-                    alert('error');
+
+
                 }); //WEB SERVICE
-
-
-                
             }; // CALL WEB SERVICE
 
+          
 
-            $scope.CallWebService();
 
+
+
+            $scope.myFunct = function (keyEvent) {
+              
+                var myrequest = $scope.textRequest;
+                var myfilter = $scope.textFilter;
+                
+                //alert(myrequest);
+                //alert(myfilter);
+
+                $http({
+                    method: 'POST',
+                    url: "/WebServiceStatistics.asmx/GetTextStatistics",
+                    dataType: 'json',
+                    data: { 'paragraph': 'ERIC WAS HERE AND ERIC IS GOOD' , 'filter' : 'ABC' },
+                    caontentType: 'application/json; charset=utf-8'
+                }).success(function (response) {
+                    
+                    $scope.textRequest = 'AAA BBB CCC DDD EEE FFF GGG HHH';
+                    $scope.textFilter  = 'ABC';
+
+                    var data = response.d;
+
+                    $scope.textResponse = null;
+
+                    $scope.$apply();
+
+                    //setTimeout(function () { $scope.$apply(); }, 2000);
+
+                    //alert($scope.textResponse);
+
+                    //$scope.$apply();
+
+                }).error(function (data, status, headers, config) {
+                    //$scope.textResponse = "ERROR";
+                });        
+            } //KEY EVENT
+
+
+
+
+            $scope.CallWebServiceInit();
         }); //CONTROLLER
 
-    </script>
+</script>
 </head>
 <body>
-
 <form id="textstatisticsANGULAR" runat="server">
-
-
- <div>
-
-<textarea id="txFilter">ZORK ADVENTURE</textarea>
-     
-
-<textarea id="txRequest" ng-model="textRequest"  ng-controller="myController">
-
-</textarea>
-
- <textarea id="txResult" ng-model="textResponse"  ng-controller="myController">
- RESULT RESULT RESULT
- </textarea>
-
+<div>
+<textarea id="txFilter"  ng-model="textFilter"   ng-controller="myController"></textarea>
+<br />
+<textarea id="txRequest" ng-model="textRequest"  ng-controller="myController" ng-keypress="myFunct($event);"></textarea>
+<br />
+<div  id="divResponse"   ng-model="textResponse" ng-controller="myController" style="border:1px solid black;text-align:center;">
+<table>
+  <tr><td>STARTING LETTER</td><td>WORD COUNT</td></tr>
+  <tr ng-repeat="x in textResponse">
+    <td>{{ x.key }}</td>
+    <td>{{ x.payload }}</td>
+  </tr>
+</table>
+</div>
 </div>
 </form>
 </body>
