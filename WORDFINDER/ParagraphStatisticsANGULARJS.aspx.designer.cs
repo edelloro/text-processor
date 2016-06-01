@@ -13,12 +13,12 @@ namespace WebApplication13 {
     public partial class WebForm1Angular {
         
         /// <summary>
-        /// textstatistics control.
+        /// textstatisticsANGULAR control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm textstatistics;
+        protected global::System.Web.UI.HtmlControls.HtmlForm textstatisticsANGULAR;
     }
 }

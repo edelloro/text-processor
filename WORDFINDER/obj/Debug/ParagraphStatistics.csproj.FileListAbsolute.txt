@@ -8,3 +8,9 @@ C:\Users\ericd\Desktop\PARAGRAPH\WORDFINDER\bin\WebApplication13.dll
 C:\Users\ericd\Desktop\PARAGRAPH\WORDFINDER\bin\WebApplication13.pdb
 C:\Users\ericd\Desktop\PARAGRAPH\WORDFINDER\obj\Debug\WebApplication13.dll
 C:\Users\ericd\Desktop\PARAGRAPH\WORDFINDER\obj\Debug\WebApplication13.pdb
+C:\Users\ericd\Documents\GitHub\text-processor\WORDFINDER\bin\WebApplication13.dll.config
+C:\Users\ericd\Documents\GitHub\text-processor\WORDFINDER\bin\WebApplication13.dll
+C:\Users\ericd\Documents\GitHub\text-processor\WORDFINDER\bin\WebApplication13.pdb
+C:\Users\ericd\Documents\GitHub\text-processor\WORDFINDER\obj\Debug\ParagraphStatistics.csprojResolveAssemblyReference.cache
+C:\Users\ericd\Documents\GitHub\text-processor\WORDFINDER\obj\Debug\WebApplication13.dll
+C:\Users\ericd\Documents\GitHub\text-processor\WORDFINDER\obj\Debug\WebApplication13.pdb
