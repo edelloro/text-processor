@@ -75,6 +75,8 @@
     <Content Include="SAMPLEDATA\ZorkI.txt" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\code-angular.js" />
+    <Content Include="Scripts\code-jquery.js" />
     <Content Include="Scripts\jquery-2.2.1.min.js" />
     <Content Include="SiteError.aspx" />
     <Content Include="Web.config" />
