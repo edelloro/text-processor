@@ -3,14 +3,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" ng-app="myApp" >
 <head runat="server">
-    <title></title>
-   
+    <title></title>  
     <link href="CSS/Paragraph.css" rel="stylesheet" />
- 
     <script src="Scripts/angular.js"></script>
-
-    <script src="Scripts/code-angular.js"></script>
-   
+    <script src="Scripts/code-angular.js"></script>  
 </head>
 <body>
 <form id="textstatisticsANGULAR" runat="server" ng-controller="myController">

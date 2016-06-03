@@ -5,9 +5,9 @@
     $('#txFilter,#txRequest').keyup(function () {
         var text = $('#txRequest').val();
         var filter = $('#txFilter').val();
+        text = text.replace(/'/g, "\\'");
         text = text.replace(/(\r\n|\n|\r)/gm, " ");
         filter = filter.replace(/(\r\n|\n|\r)/gm, " ");
-        text = text.replace(/'/g, "\\'");
         callWebRequest(text, filter);
     });
 });

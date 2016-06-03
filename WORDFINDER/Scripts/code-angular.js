@@ -5,8 +5,14 @@ app.controller('myController', function ($scope, $http) {
     $scope.textFilter = "ZORK ADVENTURE";
     $scope.textResponse = [];
     $scope.myFunct = function (keyEvent) {
+
+
         var myrequest = $scope.textRequest;
         var myfilter = $scope.textFilter;
+
+        myrequest = myrequest.replace(/'/g, "\\'");
+        myrequest = myrequest.replace(/(\r\n|\n|\r)/gm, " ");
+        myfilter = myfilter.replace(/(\r\n|\n|\r)/gm, " ");
 
         $http({
             method: 'POST',
