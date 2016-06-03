@@ -3,9 +3,10 @@
 app.controller('myController', function ($scope, $http) {
 
     $scope.textFilter = "ZORK ADVENTURE";
-    $scope.textResponse = [];
-    $scope.myFunct = function (keyEvent) {
 
+    $scope.textResponse = [];
+
+    $scope.myKeyPress = function (keyEvent) {
 
         var myrequest = $scope.textRequest;
         var myfilter = $scope.textFilter;
@@ -13,6 +14,7 @@ app.controller('myController', function ($scope, $http) {
         myrequest = myrequest.replace(/'/g, "\\'");
         myrequest = myrequest.replace(/(\r\n|\n|\r)/gm, " ");
         myfilter = myfilter.replace(/(\r\n|\n|\r)/gm, " ");
+
 
         $http({
             method: 'POST',
@@ -30,6 +32,9 @@ app.controller('myController', function ($scope, $http) {
         });
     } //KEY EVENT
 
+
+
+
     $scope.CallWebServiceInit = function () {
 
         $http({
@@ -41,13 +46,21 @@ app.controller('myController', function ($scope, $http) {
             contentType: 'application/json; charset=utf-8'
         }).success(function (response) {
             var data = response.d;
-            $scope.textRequest = data.payload;
+
+            var req = data.payload;
+            $scope.textRequest = req;
+
+            var fil = $scope.textFilter;
+
+            req = req.replace(/(\r\n|\n|\r)/gm, " ");
+            req = req.replace(/'/g, "\\'");         
+            fil = fil.replace(/(\r\n|\n|\r)/gm, " ");
 
             $http({
                 method: 'POST',
                 url: "WEBSERVICE/WebServiceStatistics.asmx/GetTextStatistics",
                 dataType: 'json',
-                data: { 'paragraph': escape(data.payload), filter: escape($scope.textFilter) },
+                data: { 'paragraph': escape(req), 'filter' : escape(fil) },
                 contentType: 'application/json; charset=utf-8'
             }).success(function (response) {
 

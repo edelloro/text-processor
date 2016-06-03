@@ -1,92 +1,72 @@
 ﻿$(document).ready(function () {
-
     initWebRequest();
-
     $('#txFilter,#txRequest').keyup(function () {
         var text = $('#txRequest').val();
         var filter = $('#txFilter').val();
-        text = text.replace(/'/g, "\\'");
-        text = text.replace(/(\r\n|\n|\r)/gm, " ");
-        filter = filter.replace(/(\r\n|\n|\r)/gm, " ");
         callWebRequest(text, filter);
     });
 });
 
 
-
-
 function initWebRequest() {
-
-  
-        var urlRequest = "WEBSERVICE/WebServiceStatistics.asmx/GetZorkText";
-
-        $.ajax({
-            url: urlRequest,
-            type: "POST",
-            dataType: 'json',
-            contentType: "application/json; charset=utf-8",
-            data: "{}",
-            success: function (result) {
-                var data = result.d;             
-                $('#txRequest').text(data.payload);
-                var starttext = $('#txRequest').text();
-                var startfilter = $('#txFilter').text();
-                starttext = starttext.replace(/(\r\n|\n|\r)/gm, " ");
-                starttext = starttext.replace(/'/g, "\\'");
-                startfilter = startfilter.replace(/(\r\n|\n|\r)/gm, " ");
-                callWebRequest(starttext, startfilter);
-            },
-
-            error: function (xhr, status, error) {
-                alert('error');
-                var err = eval("(" + xhr.responseText + ")");
-                $("#divResult").html(err.Message)
-            }
-        });
- 
-
-
-
-
-}
-
-function callWebRequest(requestdata, filterdata) {
-
-    var urlRequest = "WEBSERVICE/WebServiceStatistics.asmx/GetTextStatistics";
-
+    var filter = 'ZORK ADVENTURE';
+    $("#txFilter").val(filter);
+    var urlRequest = "WEBSERVICE/WebServiceStatistics.asmx/GetZorkText";
     $.ajax({
         url: urlRequest,
         type: "POST",
         dataType: 'json',
         contentType: "application/json; charset=utf-8",
-
-        data: "{" +
-              "  paragraph : '" + requestdata + "' , " +
-              "  filter    : '" + filterdata + "'  " +
-              "}",
-
+        data: "{}",
         success: function (result) {
             var data = result.d;
-            var text = makeTable(data);
-            $("#divResultInner").html(text);
-            $("#divResultInner").css('width', '100%');
+            $('#txRequest').text(data.payload);
+            var starttext = $('#txRequest').text();
+            var startfilter = filter;
+            callWebRequest(starttext, startfilter);
         },
-
         error: function (xhr, status, error) {
+            alert('error');
             var err = eval("(" + xhr.responseText + ")");
             $("#divResult").html(err.Message)
         }
     });
 }
 
-function makeTable(obj) {
+function callWebRequest(requestdata, filterdata) {
+
+    requestdata = requestdata.replace(/(\r\n|\n|\r)/gm, " ");
+    requestdata = requestdata.replace(/'/g, "\\'");
+    filterdata = filterdata.replace(/(\r\n|\n|\r)/gm, " ");
+
+
+    var urlRequest = "WEBSERVICE/WebServiceStatistics.asmx/GetTextStatistics";
+    $.ajax({
+        url: urlRequest,
+        type: "POST",
+        dataType: 'json',
+        contentType: "application/json; charset=utf-8",
+        data: "{" +
+              "  paragraph : '" + escape(requestdata) + "' , " +
+              "  filter    : '" + escape(filterdata) + "'  " +
+              "}",
+        success: function (result) {
+            var data = result.d;
+            var text = makeTable(data);
+            $("#divResponse").html(text);
+            $("#divResponse").css('width', '100%');
+        },
+        error: function (xhr, status, error) {
+            var err = eval("(" + xhr.responseText + ")");
+            $("#divResponse").html(err.Message)
+        }
+    });
+}
+
+function makeTable(objArray) {
     var html = '<table>';
-    for (var i = 0; i < obj.length ; i++) {
-        html += '<tr>';
-        html += '<td>' + obj[i].key + '</td>';
-        html += '<td>' + obj[i].payload + '</td>';
-        html += '</tr>';
-    }
+    html += '<tr><td>STARTING LETTER</td><td>WORD COUNT</td></tr>';
+    $.each(objArray, function (index, value) { html += '<tr><td>' + value.key + '</td><td>' + value.payload + '</td></tr>'; });
     html += '</table>';
     return html;
 }

@@ -10,20 +10,17 @@
 <body>
 <form id="textstatisticsJQUERY" runat="server">
 <div>
-<table>
-<tr><td>WORD STARTING LETTER FILTER<br />
-<textarea id="txFilter">ZORK ADVENTURE</textarea></td></tr>
-<tr><td>SAMPLE PARAGRAPH<br />
-<textarea id="txRequest"></textarea></td></tr>
-<tr>    
-<td>
-RESULTS<br />
-<div id="divResult">
-<div id="divResultInner"></div>
+This is JQuery Code with a WebService <a href="WORD-ANGULARJS.aspx">Click here to view the Angular equivalent running</a>
+<br />
+WORD FIRST LETTER FILTER<br />
+<textarea id="txFilter" ></textarea>
+<br />
+PARAGRAPH TO EXAMINE<br />
+<textarea id="txRequest" ></textarea>
+<br />
+RESULTS OF PARAGRAPH<br />
+<div      id="divResponse" style="border:1px solid black;text-align:center;">
 </div>
-</td>
-</tr>             
-</table>
 </div>
 </form>
 </body>

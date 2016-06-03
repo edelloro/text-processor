@@ -11,10 +11,15 @@
 <body>
 <form id="textstatisticsANGULAR" runat="server" ng-controller="myController">
 <div>
-<textarea id="txFilter"   ng-model="textFilter"     ng-keyup="myFunct($event);"></textarea>
+This is Angular Code with a WebService <a href="WORD-JQUERY.aspx">Click here to view the JQuery code running</a>
 <br />
-<textarea id="txRequest"  ng-model="textRequest"    ng-keyup="myFunct($event);"></textarea>
+WORD FIRST LETTER FILTER<br />
+<textarea id="txFilter"   ng-model="textFilter"     ng-keyup="myKeyPress($event);"></textarea>
 <br />
+PARAGRAPH TO EXAMINE<br />
+<textarea id="txRequest"  ng-model="textRequest"    ng-keyup="myKeyPress($event);"></textarea>
+<br />
+RESULTS OF PARAGRAPH<br />
 <div   id="divResponse"   ng-model="textResponse"   style="border:1px solid black;text-align:center;">
 <table>
   <tr><td>STARTING LETTER</td><td>WORD COUNT</td></tr>
