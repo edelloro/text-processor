@@ -11,6 +11,9 @@ It uses ASP.NET WebForm, WebService with implementations
 of code in AngularJS and JQuery individually for a 
 Single Page Application framework.
 
+![Alt text](/WORDFINDER/SCREENSHOT/image.jpg?raw=true "Program")
+
+
 
 
 
