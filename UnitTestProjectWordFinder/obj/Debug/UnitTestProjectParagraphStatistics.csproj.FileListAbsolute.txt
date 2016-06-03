@@ -5,3 +5,10 @@ C:\Users\ericd\Desktop\PARAGRAPH\UnitTestProjectWordFinder\bin\Debug\WebApplicat
 C:\Users\ericd\Desktop\PARAGRAPH\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectParagraphStatistics.csprojResolveAssemblyReference.cache
 C:\Users\ericd\Desktop\PARAGRAPH\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectWordFinder.dll
 C:\Users\ericd\Desktop\PARAGRAPH\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectWordFinder.pdb
+C:\Users\ericd\Documents\GitHub\text-processor\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectParagraphStatistics.csprojResolveAssemblyReference.cache
+C:\Users\ericd\Documents\GitHub\text-processor\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectWordFinder.dll
+C:\Users\ericd\Documents\GitHub\text-processor\UnitTestProjectWordFinder\obj\Debug\UnitTestProjectWordFinder.pdb
+C:\Users\ericd\Documents\GitHub\text-processor\UnitTestProjectWordFinder\bin\Debug\UnitTestProjectWordFinder.dll
+C:\Users\ericd\Documents\GitHub\text-processor\UnitTestProjectWordFinder\bin\Debug\UnitTestProjectWordFinder.pdb
+C:\Users\ericd\Documents\GitHub\text-processor\UnitTestProjectWordFinder\bin\Debug\WebApplication13.dll
+C:\Users\ericd\Documents\GitHub\text-processor\UnitTestProjectWordFinder\bin\Debug\WebApplication13.pdb

@@ -5,78 +5,26 @@
 <head runat="server">
     <title></title>
 
-    <style>
-
-        body {
-            font-size:x-large;
-        }
-        table {
-            width: 100%;
-            font-size:x-large;
-        }
-
-        #txFilter {
-            font-size: x-large;
-            width:100%;
-            height:50px; 
-            border:1px solid black;
-        }
-
-        #txRequest {
-            font-size: x-large;
-            width:100%; 
-            height:300px;
-            max-height:300px; 
-            border:1px solid black;
-        }
-
-        #divResult {
-            font-size:x-large;
-            width:100%; 
-            height:300px; 
-            max-height:300px;
-            border:1px solid black;
-            overflow-y:scroll;
-        }
-
-        #divResultInner {
-            font-size:large;
-            width:600px;
-            text-align:center;
-        }
-
-    </style>
-
     <script src="Scripts/jquery-2.2.1.min.js"></script>
-
+    <link href="CSS/Paragraph.css" rel="stylesheet" />
 <script>
     $(document).ready(function () {
 
         var starttext = $('#txRequest').text();
         var startfilter = $('#txFilter').text();
         starttext   = starttext.replace(/(\r\n|\n|\r)/gm, " ");
-
         starttext = starttext.replace(/'/g, "\\'");
-
         startfilter = startfilter.replace(/(\r\n|\n|\r)/gm, " ");
-
 
         callWebRequest(starttext, startfilter);
 
-        //$('#txRequest').keyup(function () {
-        //    var text = $(this).val();
-        //    var filter = $('#txFilter').val();     
-        //    callWebRequest(text , filter);
-        //});
 
         $('#txFilter,#txRequest').keyup(function () {
             var text = $('#txRequest').val();
             var filter = $('#txFilter').val();
             text = text.replace(/(\r\n|\n|\r)/gm, " ");
             filter = filter.replace(/(\r\n|\n|\r)/gm, " ");
-          
             text = text.replace(/'/g, "\\'");
-
             callWebRequest(text, filter);
         });
     });
@@ -99,7 +47,9 @@
 
             success: function (result) {
                 var data = result.d;
-                $("#divResultInner").html( data );
+                var text = makeTable(data);
+                $("#divResultInner").html(text);
+                $("#divResultInner").css('width', '100%');
             },
 
             error: function (xhr, status, error) {
@@ -108,6 +58,19 @@
             }
         });
     }
+
+    function makeTable(obj) {
+        var html = '<table>';
+        for (var i = 0; i < obj.length ; i++) {
+            html += '<tr>';
+            html += '<td>' + obj[i].key     + '</td>';
+            html += '<td>' + obj[i].payload + '</td>';
+            html += '</tr>';
+        }
+        html += '</table>';
+        return html;
+    }
+
 </script>
 
 

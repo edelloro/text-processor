@@ -58,6 +58,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\Paragraph.css" />
+    <Content Include="SAMPLEDATA\ZorkII.txt" />
+    <Content Include="SAMPLEDATA\ZorkIII.txt" />
     <Content Include="Scripts\angular.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -69,7 +72,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="ParagraphStatisticsANGULARJS.aspx" />
-    <Content Include="SAMPLEDATA\New Text Document.txt" />
+    <Content Include="SAMPLEDATA\ZorkI.txt" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\jquery-2.2.1.min.js" />
