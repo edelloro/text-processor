@@ -11,7 +11,9 @@ It uses ASP.NET WebForm, WebService with implementations
 of code in AngularJS and JQuery individually for a 
 Single Page Application framework.
 
-(https://github.com/edelloro/text-processor/blob/master/WORDFINDER/SCREENSHOT/Image.jpg)
+![screenshot](https://github.com/edelloro/text-processor/blob/master/WORDFINDER/SCREENSHOT/Image.jpg)
+
+![solarized palette](https://github.com/altercation/solarized/raw/master/img/solarized-palette.png)
 
 
 
