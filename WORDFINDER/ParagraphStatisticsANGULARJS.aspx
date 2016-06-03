@@ -45,8 +45,7 @@
         }
     </style>
 
-    <!-- COULD BE BUNDLED -->
-
+ 
     <script src="Scripts/angular.js"></script>
 
     <script>
@@ -56,14 +55,36 @@
             app.controller('myController', function ($scope, $http) {
 
             $scope.textFilter = "ZORK ADVENTURE";
+            $scope.textResponse = [];
+          
+            $scope.myFunct = function (keyEvent) {
+                var myrequest = $scope.textRequest;
+                var myfilter = $scope.textFilter;
+
+                $http({
+                    method: 'POST',
+                    url: "/WebServiceStatistics.asmx/GetTextStatistics",
+                    dataType: 'json',
+                    data: { 'paragraph': escape(myrequest) , 'filter' : escape(myfilter) },
+                    contentType: 'application/json; charset=utf-8'
+                }).success(function (response) {
+                    var data = response.d;
+                    $scope.textResponse = data;
+                    $scope.$apply();
+                   
+                }).error(function (data, status, headers, config) {
+                    //$scope.textResponse = "ERROR";
+                });        
+            } //KEY EVENT
 
             $scope.CallWebServiceInit = function () {
+               
                 $http({
                     method:      'POST',
                     url: '/WebServiceStatistics.asmx/GetZorkText',
                     dataType: 'json',
-                    data: {}, //I GIVE YOU JSON PLEASE GIVE ME BACK JSON
-                    //data:   {name:'ERIC123ERIC'}             
+                    data: {}, //SEND JSON RETURN JSON
+                    //data:   {name:'TEST123'}             
                     contentType: 'application/json; charset=utf-8' 
                 }).success(function (response) {
                     var data = response.d;
@@ -76,81 +97,41 @@
                         data: { 'paragraph': escape(data.payload), filter: escape($scope.textFilter) },
                         contentType: 'application/json; charset=utf-8'
                     }).success(function (response) {
+
                         var data = response.d;
+                      
                         $scope.textResponse = data;
+                    
                     }).error(function (data, status, headers, config) {
                         alert('error');
                         //$scope.textResponse = "ERROR";
                     });
 
-                }).error(function (data, status, headers, config) {
-
-
-                }); //WEB SERVICE
+                }).error(function (data, status, headers, config) {  }); //$http
             }; // CALL WEB SERVICE
 
-          
-
-
-
-
-            $scope.myFunct = function (keyEvent) {
-              
-                var myrequest = $scope.textRequest;
-                var myfilter = $scope.textFilter;
-                
-                //alert(myrequest);
-                //alert(myfilter);
-
-                $http({
-                    method: 'POST',
-                    url: "/WebServiceStatistics.asmx/GetTextStatistics",
-                    dataType: 'json',
-                    data: { 'paragraph': 'ERIC WAS HERE AND ERIC IS GOOD' , 'filter' : 'ABC' },
-                    caontentType: 'application/json; charset=utf-8'
-                }).success(function (response) {
-                    
-                    $scope.textRequest = 'AAA BBB CCC DDD EEE FFF GGG HHH';
-                    $scope.textFilter  = 'ABC';
-
-                    var data = response.d;
-
-                    $scope.textResponse = null;
-
-                    $scope.$apply();
-
-                    //setTimeout(function () { $scope.$apply(); }, 2000);
-
-                    //alert($scope.textResponse);
-
-                    //$scope.$apply();
-
-                }).error(function (data, status, headers, config) {
-                    //$scope.textResponse = "ERROR";
-                });        
-            } //KEY EVENT
-
-
-
-
             $scope.CallWebServiceInit();
+
         }); //CONTROLLER
+
+
 
 </script>
 </head>
 <body>
-<form id="textstatisticsANGULAR" runat="server">
+<form id="textstatisticsANGULAR" runat="server" ng-controller="myController">
 <div>
-<textarea id="txFilter"  ng-model="textFilter"   ng-controller="myController"></textarea>
+<textarea id="txFilter"   ng-model="textFilter"     ng-keyup="myFunct($event);"></textarea>
 <br />
-<textarea id="txRequest" ng-model="textRequest"  ng-controller="myController" ng-keypress="myFunct($event);"></textarea>
+<textarea id="txRequest"  ng-model="textRequest"    ng-keyup="myFunct($event);"></textarea>
 <br />
-<div  id="divResponse"   ng-model="textResponse" ng-controller="myController" style="border:1px solid black;text-align:center;">
+<div   id="divResponse"   ng-model="textResponse"   style="border:1px solid black;text-align:center;">
+
 <table>
   <tr><td>STARTING LETTER</td><td>WORD COUNT</td></tr>
-  <tr ng-repeat="x in textResponse">
-    <td>{{ x.key }}</td>
-    <td>{{ x.payload }}</td>
+  <tr ng-repeat="item in textResponse">
+    <td>{{ item.key }}</td>
+    <td>{{ item.payload }}</td>
   </tr>
 </table>
 </div>
