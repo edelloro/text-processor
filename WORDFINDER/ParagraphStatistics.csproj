@@ -71,7 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="ParagraphStatisticsANGULARJS.aspx" />
+    <Content Include="WORD-ANGULARJS.aspx" />
     <Content Include="SAMPLEDATA\ZorkI.txt" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
@@ -80,33 +80,33 @@
     <Content Include="Scripts\jquery-2.2.1.min.js" />
     <Content Include="SiteError.aspx" />
     <Content Include="Web.config" />
-    <Content Include="ParagraphStatisticsJQUERY.aspx" />
-    <Content Include="WebServiceStatistics.asmx" />
+    <Content Include="WORD-JQUERY.aspx" />
+    <Content Include="WEBSERVICE\WebServiceStatistics.asmx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="ParagraphStatisticsANGULARJS.aspx.cs">
-      <DependentUpon>ParagraphStatisticsANGULARJS.aspx</DependentUpon>
+    <Compile Include="WORD-ANGULARJS.aspx.cs">
+      <DependentUpon>WORD-ANGULARJS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ParagraphStatisticsANGULARJS.aspx.designer.cs">
-      <DependentUpon>ParagraphStatisticsANGULARJS.aspx</DependentUpon>
+    <Compile Include="WORD-ANGULARJS.aspx.designer.cs">
+      <DependentUpon>WORD-ANGULARJS.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SiteError.aspx.cs">
       <DependentUpon>SiteError.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ParagraphStatisticsJQUERY.aspx.cs">
-      <DependentUpon>ParagraphStatisticsJQUERY.aspx</DependentUpon>
+    <Compile Include="WORD-JQUERY.aspx.cs">
+      <DependentUpon>WORD-JQUERY.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ParagraphStatisticsJQUERY.aspx.designer.cs">
-      <DependentUpon>ParagraphStatisticsJQUERY.aspx</DependentUpon>
+    <Compile Include="WORD-JQUERY.aspx.designer.cs">
+      <DependentUpon>WORD-JQUERY.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebServiceStatistics.asmx.cs">
+    <Compile Include="WEBSERVICE\WebServiceStatistics.asmx.cs">
       <DependentUpon>WebServiceStatistics.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>

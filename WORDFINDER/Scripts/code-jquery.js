@@ -18,7 +18,7 @@
 function initWebRequest() {
 
   
-        var urlRequest = "WebServiceStatistics.asmx/GetZorkText";
+        var urlRequest = "WEBSERVICE/WebServiceStatistics.asmx/GetZorkText";
 
         $.ajax({
             url: urlRequest,
@@ -52,7 +52,7 @@ function initWebRequest() {
 
 function callWebRequest(requestdata, filterdata) {
 
-    var urlRequest = "WebServiceStatistics.asmx/GetTextStatistics";
+    var urlRequest = "WEBSERVICE/WebServiceStatistics.asmx/GetTextStatistics";
 
     $.ajax({
         url: urlRequest,

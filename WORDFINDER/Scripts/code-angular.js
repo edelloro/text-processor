@@ -16,7 +16,7 @@ app.controller('myController', function ($scope, $http) {
 
         $http({
             method: 'POST',
-            url: "/WebServiceStatistics.asmx/GetTextStatistics",
+            url: "WEBSERVICE/WebServiceStatistics.asmx/GetTextStatistics",
             dataType: 'json',
             data: { 'paragraph': escape(myrequest), 'filter': escape(myfilter) },
             contentType: 'application/json; charset=utf-8'
@@ -34,7 +34,7 @@ app.controller('myController', function ($scope, $http) {
 
         $http({
             method: 'POST',
-            url: '/WebServiceStatistics.asmx/GetZorkText',
+            url: 'WEBSERVICE/WebServiceStatistics.asmx/GetZorkText',
             dataType: 'json',
             data: {}, //SEND JSON RETURN JSON
             //data:   {name:'TEST123'}             
@@ -45,7 +45,7 @@ app.controller('myController', function ($scope, $http) {
 
             $http({
                 method: 'POST',
-                url: "/WebServiceStatistics.asmx/GetTextStatistics",
+                url: "WEBSERVICE/WebServiceStatistics.asmx/GetTextStatistics",
                 dataType: 'json',
                 data: { 'paragraph': escape(data.payload), filter: escape($scope.textFilter) },
                 contentType: 'application/json; charset=utf-8'
