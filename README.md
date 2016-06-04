@@ -1,11 +1,11 @@
-SAMPLE PROGRAM
-ASP.NET ANGULARJS JQUERY 
-ERIC DELL'ORO
-03-JUNE-2016
+# SAMPLE PROGRAM  
+ASP.NET ANGULARJS JQUERY WEBSERVICE JSON   
+ERIC DELL'ORO  
+03-JUNE-2016  
 
 This is a sample ASP.NET 4.X program which demonstrates
-a searching and counting word letter prefixes in a paragraph 
-and returning a selected set of statistics.
+ajax requests searching and counting word letter prefixes 
+in a paragraph and returning statistics.
 
 It uses ASP.NET WebForm, WebService with implementations
 of code in AngularJS and JQuery individually for a 

@@ -10,6 +10,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 
 
+
 namespace WebApplication13
 {
     /// <summary>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
@@ -121,8 +122,8 @@ namespace WebApplication13
         public List<JSONMessage> GetTextStatistics(string paragraph, string filter)
         {
 
-            paragraph = Server.UrlDecode(paragraph);
-            filter = Server.UrlDecode(filter);
+            paragraph = HttpContext.Current.Server.UrlDecode(paragraph);
+            filter = HttpContext.Current.Server.UrlDecode(filter);
 
             List<JSONMessage> msglist = new List<JSONMessage>();
 

@@ -13,7 +13,7 @@ namespace UnitTestProjectWordFinder
         public void TestMethod_Test_TestFilterCount()
         {
             WebApplication13.WebService1 ws = new WebApplication13.WebService1();
-            List<WebService1.JSONMessage> result = ws.GetTextStatistics(   "APPLE ANDREW BANANA CARROT FROG", "ABC" );
+            List<WebService1.JSONMessage> result = ws.GetTextStatistics("APPLE ANDREW BANANA CARROT FROG", "ABC" );
             Assert.AreEqual(result.Count , 3 , "LETTER FILTER COUNT IS INCORRECT");
         }
 
