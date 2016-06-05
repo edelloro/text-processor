@@ -10,7 +10,6 @@ using System.IO;
 using System.Text.RegularExpressions;
 
 
-
 namespace WebApplication13
 {
     /// <summary>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
@@ -65,20 +64,9 @@ namespace WebApplication13
                     _errorMsg = value;
                 }
             }
-
         }
 
-        [WebMethod]
-        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public void HelloJson()
-        {
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            JSONMessage p = new JSONMessage();
-            p.payload = "eric";
-            p.errorMsg = "";
-            var retval = js.Serialize(p);
-            Context.Response.Write(retval);
-        }
+ 
 
 
         [WebMethod]
