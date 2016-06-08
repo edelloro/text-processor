@@ -12,13 +12,14 @@
 <div>
 This is JQuery Code with a WebService <a href="WORD-ANGULARJS.aspx">Click here to view the Angular equivalent running</a>
 <br />
-WORD FIRST LETTER FILTER<br />
+<br />
+WORD LETTER FILTER<br />
 <textarea id="txFilter" ></textarea>
 <br />
-PARAGRAPH TO EXAMINE<br />
+DOCUMENT PASSAGE TO EXAMINE<br />
 <textarea id="txRequest" ></textarea>
 <br />
-RESULTS OF PARAGRAPH<br />
+RESULTS<br />
 <div      id="divResponse" style="border:1px solid black;text-align:center;">
 </div>
 </div>

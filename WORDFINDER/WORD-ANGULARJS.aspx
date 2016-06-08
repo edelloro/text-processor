@@ -13,13 +13,14 @@
 <div>
 This is Angular Code with a WebService <a href="WORD-JQUERY.aspx">Click here to view the JQuery code running</a>
 <br />
-WORD FIRST LETTER FILTER<br />
+WORD LETTER FILTER<br />
 <textarea id="txFilter"   ng-model="textFilter"     ng-keyup="myKeyPress($event);"></textarea>
 <br />
-PARAGRAPH TO EXAMINE<br />
+<br />
+DOCUMENT PASSAGE<br />
 <textarea id="txRequest"  ng-model="textRequest"    ng-keyup="myKeyPress($event);"></textarea>
 <br />
-RESULTS OF PARAGRAPH<br />
+RESULTS<br />
 <div   id="divResponse"   ng-model="textResponse"   style="border:1px solid black;text-align:center;">
 <table>
   <tr><td>STARTING LETTER</td><td>WORD COUNT</td></tr>

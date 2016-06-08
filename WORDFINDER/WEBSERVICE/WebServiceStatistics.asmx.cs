@@ -30,39 +30,21 @@ namespace WebApplication13
 
             public string key
             {
-                get
-                {
-                    return _key;
-                }
-                set
-                {
-                    _key = value;
-                }
+                get { return _key;}
+                set { _key = value;}
             }
 
 
             public string payload
             {
-                get
-                {
-                    return _payload;
-                }
-                set
-                {
-                    _payload = value;
-                }
+                get { return _payload;  }
+                set { _payload = value; }
             }
 
             public string errorMsg
             {
-                get
-                {
-                    return _errorMsg;
-                }
-                set
-                {
-                    _errorMsg = value;
-                }
+                get {  return _errorMsg; }
+                set { _errorMsg = value; }
             }
         }
 
@@ -109,7 +91,6 @@ namespace WebApplication13
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public List<JSONMessage> GetTextStatistics(string paragraph, string filter)
         {
-
             paragraph = HttpContext.Current.Server.UrlDecode(paragraph);
             filter = HttpContext.Current.Server.UrlDecode(filter);
 
@@ -141,11 +122,17 @@ namespace WebApplication13
 
 
             string data = paragraph;
-            //DEFENSIVE CODING INCASE THERE WAS MULTIPLE SPACES
-            while (data.IndexOf("  ") > -1)
+
+            //DEFENSIVE CODING INCASE THERE WAS MULTIPLE SPACES       
+            for (int i = 0; i < 200; i++)
             {
                 data = data.Replace("  ", " ");
+                if (data.IndexOf("  ") == -1)
+                {
+                  break;
+                }
             }
+
             data = data.Trim();
             string[] dataArray = data.Split(' ');
 
@@ -160,13 +147,9 @@ namespace WebApplication13
                 string mykey = d.Substring(0, 1).ToUpper();
 
                 if (dict.ContainsKey(mykey) == true)
-                {
-                    dict[mykey]++;
-                }
+                { dict[mykey]++; }
                 else
-                {
-                    dict.Add(mykey, 1);
-                }
+                { dict.Add(mykey, 1); }
             }
 
             foreach (KeyValuePair<string, int> pair in dict)

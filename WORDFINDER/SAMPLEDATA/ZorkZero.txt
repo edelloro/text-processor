@@ -1,0 +1,164 @@
+ZORK ZERO
+(this is a long one. settle in, bucko.)
+Prologue
+You start as a servant in the court of Dimwit Flathead. Go where you're told until Megaboz arrives and everyone starts diving under the tables. Do likewise. After the fireball, stand up and get the parchment. In a few moves everything will fade and you will start the real game, 94 years later. 
+For Your Amusement: 
+Examine the tables in the Banquet Hall. 
+Examine Dimwit Flathead.
+Stay standing when Megaboz casts his spell.
+Go into the Entrance Hall during the banquet.
+
+Main Area of Castle
+You begin in the Great Hall. You are the descendant of the servant character in the prologue. You can examine the parchment and calendar if you like, but they refer to game packaging items used for copy protection, so the in-game items are not necessary. The parchment tells you what you have to do to break the curse Megaboz cast on the Flatheads and the GUE and complete the game: collect 24 items that belonged to the 12 Flatheads (2 items each), throw them into the cauldron, and speak the magic word. 
+The jester will appear at random throughout the game, as well as in several set locations. Sometimes he just appears and says something bizarre. He can turn you into an alligator, which will cause you to drop everything you are carrying or wearing. When you have "a bit of difficulty breathing" he's put a rubber clown nose on you (remove it and drop it). In the castle, he can make you get picked up by a bat and carried to an outdoor castle location, or make a bedbug appear (sing a lullaby to make the bedbug fall asleep). You need to get three things from the jester: a slate, which he will give you; a scroll, which he drops and you must pick up; and a comic strip, which will blow by a turn or two after he says "see you in the funny papers." You can actually ignore the scroll, because it doesn't change from game to game. Read the slate and comic strip and drop them after making note of what they say.
+Go up onto the Balcony, and south. Examine the rebus. Throughout the story we'll be encountering key-shaped buttons that will remove the animals here. Go south into the Closet. Press the button on the wall and take the bag of food. Go north twice and down into the Great Hall, then south twice into the Throne Room. Take the sceptre. Sit on the throne and snap your fingers. Stand, go south, and get the candle. Go south, west, and up twice. Take the key. The solution to the jester's riddle is Y. Go west and south. Take the glove and cloak and wear the glove. 
+Go north, east, down twice, east twice, down, south, and down. Take the cap and wear it. Wait for the jester to appear. The answer to this riddle is triplet (or any other multiple, such as quadruplet). Go southwest. Open all the torture devices until you find the metronome, and take it. Go back to the Great Hall (northeast, north, up, west, north four times), then north and east. This cauldron is where you will be throwing the 24 objects. So far you have three - the sceptre, the metronome, and the cap. Put the sceptre and metronome in, but we'll be needing the cap later. Go east and down and get the walnut. Go up and west twice to the Entrance Hall. Ring the bell. The solution to this riddle is time. 
+For Your Amusement:
+Say one of the magic words on the parchment.
+Climb down the banner from the Balcony.
+Put the straw (found in the Scullery) in your mouth. 
+
+The Village Area
+Go north. Take the worm. Go northwest twice and up into the Upper Barbican. Turn the wheel to open the drawbridge. Go back down and northwest two more times. Go southwest and open the locker. Take the steel key. Go northeast twice, southeast, east, and north. The answer to this riddle is bookkeeper. Take the zorkmid coin. Go south, east, and south. Take the package and open it. The pigeon is a teleportation device; anyone who takes the pigeon will be transported to the location of the perch. Go north and east.
+Climb to the 19th floor, go south to the office of Frank Lloyd Flathead, and take the t-square. Return down until you find yourself in the basement. Push the button. Go south. Stand on the conductor's podium and you will be transported to the Pit. Get off and take the violin, then stand on the podium again. Go north, up, east, and north. Take the Ring of Ineptitude. Return to the castle (south, west four times, northwest, southwest, southeast four times, south). Go east into the Banquet Hall and drop the t-square and violin into the cauldron. 
+For Your Amusement:
+While holding the candle, drop the cannonball through the "murder hole" in the Upper Barbican. 
+Try to enter the moat. Wait until the jester turns you into an alligator, and then try again. 
+Climb to the 400th floor of the FrobozzCo Building. (For sanity's sake re: climbing back down, you may wish to save a game first.) 
+
+The East Wing
+Go south and southeast. Unlock the door with the iron key, and then drop it. Open the door and go east and north. Touch the armour three times and pick up the lance. Read the encyclopaedia entry about the jester and note his middle name. Go south twice and open the trap door. Go north and east. Take the wand. (This wand turns living things into similar unliving objects for 16 turns, and has five "charges" in it.) Go east and up. Open the north door and go north twice. Take and wear the goggles. Return south twice. Open the south door.
+"Tower of Bozbar" is more commonly known as "Tower of Hanoi". First, solve it to move all the discs to the right peg. Start by moving disc 1 to the left peg. When you are moving the discs around, remember this rule of thumb so you can stack and unstack them quickly: If the disc number is odd, disc 1 goes next to it (on the third peg). If it's even, disc 1 goes on top of it. Go north and east. Take the manuscript. Return west and south, open the south door, and play again, moving the discs to the left peg. Go north and west and get the cup. Go east, south, down, west three times, northwest, and north. Put the lance and manuscript in the cauldron. Go west two more times. 
+
+The West Wing
+Point the wand at the lobster and it will turn into a nutcracker. Take the nutcracker. Go south and southwest. Unlock the door with the steel key and drop the key. Open the door and go west twice. Open the walnut with the nutcracker. Show the walnut to the jester, and then eat it. Drop the shell and nutcracker. Go west and north. Play Peggleboz. The following sequence will win: QG SQ HR UL IK TI EJ OG AE FN MO LJ PF FC BD DK QG EJ OG.
+Go north to the Gaming Room. Since you are wearing the goggles, you are able to see where the jester really hid the zorkmid bill. Point to that location and you will get the bill. Go south twice, east, northeast, east twice, and north. Put the bill into the cauldron, and drop everything else. Backtrack to the West Wing (south, west twice, southwest, west), and then go south. Pick up the dumbbell, take it back to the Banquet Hall, and put it in the cauldron. Pick up all your other objects. Make sure you have the candle, the coin, the pigeon, the perch, and the cloak, and are wearing the glove. 
+For Your Amusement: 
+Save a game. Try to take the fish tank, and then try to enter it. Restore and try the reverse order. 
+Eat the lobster. 
+Close the walnut after opening it.
+When the jester is preventing you from entering the dirigible hangar (West Hall), teleport him away using the pigeon (drop the perch somewhere else, then give him the pigeon), and then go west. 
+
+Underground
+Go west, south, and down twice to the Lowest Hall. Examine the vault door. Turn the dial to any number between 1 and 2570; the glove gives you enough manual dexterity to automatically crack the safe. Open the vault door and go south. Take the stock certificate. Go north twice and take both the magic passages. Read the notice. Return south and up, and then go southwest, south, and west to the Field Office. The blueprint here is another copy-protection packaging object, so ignore it. Go west. 
+You're now at the edge of a maze of construction. Follow these directions: SW. SE. W. W. N. NE. N. Install the northwest-southeast passage in the northwest wall. NW. NE. Install the north-south passage in the north wall. N. NE. W. SW. SW. SW. W. NW. Drop the perch here and wear the cloak. You will be transported to the Plain, which is a chessboard, on square K7. 
+Go west three times and north once. Give the pigeon to the knight. The black knight will be transported to Lot 17 underground and pick up the perch. Remove the cloak and you will return as well. Take the pigeon from the knight. Tell him to go to the hard-hat location with the command knight, north twice then west once. Drop the pigeon, then take it again to join the knight on Lot 0. Tell the knight, who is now wearing the hard hat, to reverse his move, then drop and take the pigeon to return to Lot 17. Take the hat and perch and backtrack to the Exit (SE, E, NE, NE, NE, E, SW, S, SW, SE, S, SW, S, E, E, NW, NE, E, E). 
+Go south twice. Read the sign. Put the zorkmid coin in the basket. Drop everything but the candle here. Go south, east, and down. Take the orbs. Go up, west, north, get your stuff (except the cloak, which you no longer need), north again, and east. Answer the jester's question according to what you read in the encyclopaedia. Take the anti-pit bomb. Go west, north twice, and northeast. Go down twice. Throw the bomb at the pits. Take the lantern. Go up twice and then north. Take the screwdriver. Go south, up, north, and east. Put the certificate and screwdriver in the cauldron (we need the lantern later). Leave the orbs, cup, lantern, pigeon, and perch.
+For Your Amusement: 
+Smash the orbs. 
+
+Port Foozle
+Go south, west, down, southwest, south, south, west twice, southwest, west thrice, and north. Sit down and play Double Fanucci. To win the game, wait for the jester to discard Trebled Fromps, and then play three undertrumps in a row. (If any of the moves are illegal, just wait until he discards Trebled Fromps again, and try again. You may lose several games before you finally win.) Take the broom and stand. Go south, east, and north. Take a number and the box (which contains a pellet of squid repellent). Read the sign. When your number is called, type executioner, behead me. You will return to the Fishing Village. Go south twice, southeast, and northeast. The correct door is the one that mentions the Veritassi in the second statement. Open that door and take the shovel. Go down, and you will be at the Fork. Return to the Great Hall (northeast, east twice, north twice, northeast, up). 
+For Your Amusement: 
+Carry the pigeon and perch into the Inquisition after leaving a chess piece out in the Fishing Village. 
+Carry the cloak into the Inquisition. 
+
+Castle and Village again
+Go south four times, east, down, south, and southeast. Sweep the cobwebs with the broom and take the glass flask. Drop the broom. Go northwest and north three times. Look under the slab that was indicated by the "funny paper" to find a hole to the Oracle. Go up, north, west, northwest, and north. Put the flask in the cauldron. Go west, north, and northwest four times. Stand on the stump and jump in the directions that were indicated by the slate. Dig with the shovel, then drop it. Open the chest and take the gaudy crown. Return to the Banquet Hall (southeast four times, south, east) and put the crown in the cauldron. Go south, west, and down. 
+For Your Amusement: 
+Kill the giant spiders in the Cell. 
+
+The Lake Area
+Check to see that you have the pigeon and perch, candle, and squid repellent, and are wearing the seaman's cap. Go southeast and east. Enter the dock and then enter the boat. Examine the controls. Press the white button and the yacht will go out to the middle of the lake. Go down and examine the bathysphere. Drop the squid repellent. Open the bathysphere and get inside. Close the door and examine the controls. Turn on the lights. Put your hand in the waldo hole and get the squid repellent. Push the lever down. Wait four turns. Release the repellent and get the ruby. Push the lever up. When you reach the top, remove your hand from the hole. Open the door, get out of the bathysphere, and take the ruby. Go up and press the green button to go to the South Shore. Leave the yacht and leave the dock. Go west twice. Answer music to the riddle and you will receive a diploma. 
+For Your Amusement:
+Wait for the jester to appear in the Hold, then enter the bathysphere and use the waldo to pick him up. 
+Install a magic passage in a wall of the bathysphere. 
+
+The Grotto and Shrine
+Go east, south, east, northeast, north, and east. Take the amulet and wear it. Push the boulder and go north. Push the button and go northeast. Drop everything except the pigeon and candle. Return southwest and go down. You will fall into the Lowest Hall along with some gravel. Take the gravel, then the candle and pigeon. You will be transported to the Shrine. Put the gravel in the bowl. Return southwest and repeat the whole sequence twice, so that there are three rounds' worth of gravel in the bowl. Touch the elixir. Get the rest of your belongings. Go southwest, south, down, and north. Take the saddle and rooster. Go south twice. Take the fox. Go southwest. Take the fly. Go west and north. Get onto the yacht and press the yellow button to return to the West Shore. Go west twice. Get the toboggan. Go north and up, then north and east. Put the diploma and saddle in the cauldron. Drop everything except the fox, worm, and rooster. 
+For Your Amusement: 
+Read the inscription on the toboggan. 
+
+Fenshire
+Go west twice, south, southwest, and west twice. Enter the dirigible and press the right button. Wait four turns. Leave the dirigible and go south, east, and north. Give the fox, rooster and worm to the jester. To transport all three items to the Nice Lunch Spot, do as follows: Take the rooster north. Take the fox north, get the rooster, and drop the fox. Take the rooster south, get the worm, and drop the rooster. Take the worm north and drop it. Return south for the rooster and take it north. After the jester makes the stew, you will end up in the Fenshire Hangar with a hexagonal block. Press the left button on the gondola to return to the castle. Go east, northeast, east twice, and north. Get the ruby, candle, toboggan, pigeon, perch, and orbs. 
+For Your Amusement: 
+Leave the gondola in mid-flight. 
+Install a magic passage in a wall of the dirigible. 
+Clean the fireplace in Ruined Hall. 
+Put something into the borphbelly stew cookpot. 
+
+Oracle and Glacier
+Go south, southeast, east, south, and down twice. Drop the perch. Put the ruby in the depression to activate the Oracle. Examine the amulet. Enter the oracle at a time when one eye is open and you will be transported to the Glacier. Drop the toboggan and ride it. Examine all four orbs in the mirror of the lake. Drop the three that do not show a sleeping maiden, and throw that last one to the east. Go west into the Chalet and take the scale model. Go east, southeast, and northeast and retrieve the orb. Drop and then take the pigeon to return to the Oracle. Go up and put the model in the cauldron. 
+For Your Amusement:
+Look at the reflections of the following things in the mirror lake: the candle, the wand, the flask of poison, the cloak, the glove, the goggles, the pigeon, the perch, the amulet, the jester, the potion, the sapphire, the scrap of parchment, either of the magic passages, and a chess piece. 
+
+Crag Area 
+Carry the pigeon, orb, candle, hexagonal block, and wand. Go south, west, down, and southeast. Save the game. Examine the amulet repeatedly. Wait until you're on the first turn of all four eyes being open. Point the wand at the snake to turn it into a rope. Open the cage and take the rope. Drop the pigeon, then take it again. Enter the mouth. You will be transported to the Crag. Press the button. Go down, tie the rope to the spire, and go down again. Take the easel and landscape. Drop and take the pigeon to get back to the Oracle. Return to the Crag (enter the Oracle with no eyes open). Go northeast and then down. Put the orb on the altar and take the flower. Return up and then go southwest twice. Put the block in the hole and go south. Take the sapphire. Return to the Oracle via the pigeon. Go up twice, north, west, northwest, and north. Put the easel and landscape in the cauldron. 
+For Your Amusement: 
+Wake the statue in the Enchanted Cave. 
+
+Fenshire Again
+Go west twice, south, southwest, west twice, and enter the dirigible. Press the button. When you arrive, go south, east, and south. Play Snarfem. The flowers on the left show you which pile to take from, and the ones on the right show you how many to take. After you win, take the fan. Return north. Put the flower in the vase, go east, and take the ladder. Go west twice and north. Enter the dirigible and return to the castle. Return to the Banquet Hall (east twice, northeast, east twice, north) and put the fan in the cauldron. 
+
+Antharia
+Wear the hard hat and amulet, and carry the candle, pigeon, and lantern. Go to the Oracle (south, southeast, east, south, down twice) and enter it when all four eyes are open. You will be transported to the Mine Entrance. Go east, northeast, and north. Press the button. Go northwest and take the quill pen. Go southeast, south, southwest, west twice, southwest, southeast, and east. Turn on the lantern. Go up, east, and southeast. Cough to summon the Antharian cave-dwelling witches. Say hello to one of them. They'll ask for 6 gloops of water from the Great Underground Oasis and give you a 9-gloop vial. Go northwest. Search the nest and take the tie. Go west and down. Get your stolen light source. Turn off the lantern and return to the Oracle via pigeon. Put the tie and quill in the cauldron (up twice, north, west, northwest, north). 
+For Your Amusement: 
+Taste, smell, touch, and step in the granola in the mines. 
+Enter the Icky Cave (first time) without a light source, and then cough. 
+
+Fublio Valley
+Still wearing the amulet, carry the candle, pigeon, and ladder. Enter the Oracle when three eyes are open to reach Foot of Statue. Go southwest, south, and west. Read the poem. Drop the ladder and climb it. Open the trap door and go up to the attic. Press the button. Go down, east, north, southeast, and east. Read the sign. Go northeast. Take the 4-gloop vial. Return to the Oracle via pigeon. 
+For Your Amusement: 
+Put a chess piece (for example) at Foot of Statue (drop perch here. Wear cloak. Give pigeon to piece. Remove cloak. Get perch) and then return to the Oracle (rub the amulet). Then, while holding the perch, put the pigeon in the Oracle's mouth. 
+
+Testing Room 
+Go up twice, north, west, northwest, north. Get the flamingo food and wand. Go west, west, and south. Point the wand at the flamingo and take the lawn ornament. Go east, down, and north twice. Put the flamingo in one of the booths. Enter the other booth. Open the bag. Wait until the ornament reverts to the live flamingo and then press the button. Eat the flamingo food. 
+For Your Amusement: 
+Use the Testing Room booths to turn yourself into a violin, and then diagnose. 
+
+Desert and Oasis
+Make sure to carry both vials, the candle, and the cap (worn). Go south twice, southeast, and east. Take the yacht to the green dock. Go south and west. Ride the camel. Go east, north, and west and have the camel drink at the Stream. Return east and south, then go south, southwest, southeast twice, and northeast to the Great Underground Oasis. Dismount. Fill the 9-gloop vial. Fill the 4-gloop vial from it twice, emptying it each time. Pour the remaining one gloop into the 4-gloop vial. Fill the 9-gloop vial again and fill the 4-gloop vial from it. Six gloops will remain in the 9-gloop vial. Drop and take the pigeon to jump to the Oracle.
+For Your Amusement:
+Look inside the camel.
+At South Shore, try camel, drink water. 
+
+Under the World
+Enter the Oracle when all four eyes are open. Go west, southwest, southeast, east, up, east, and southeast. Give the 9-gloop vial to one of the witches. Return to the Oracle. Get the cup of potion and go to the Great Hall. Go down five times, northeast, down twice, west twice, and up. Drink the potion and listen. Note the name of the fungus cousin the fungi are seeking. Return to the castle. 
+For Your Amusement: 
+At Hanging From Roots, let go. 
+Talk to the giant brogmoid. 
+
+Top of the World
+With the ring, sapphire, candle, amulet, pigeon, and potion, go to the Fublio Valley (Oracle three eyes open). Go southwest, west, and up six times. Drink the potion again and call for the fungus cousin by name. Take the small fungus. Go down six times, east, southeast, south, and down. Wear the ring. Take the sapphire. Remove the ring. Go up, north, northwest, south, and west. Go up to the Attic. Unlock the trunk and open it. Get the notebook and fly. Read the notebook to get the magic word. Get your items from the Quarry and return to the castle.
+For Your Amusement: 
+Clean the rusty key, then read it. 
+Play the harmonica. 
+
+Endgame
+Go down, down, down from the Great Hall until you return to the brogmoid. Enter the ear and drop the fungus. Go in and take the earwax. Return to the Oracle via pigeon and go to Antharia once more. Enter the Oracle when all four eyes are open. Go west, southwest, southeast, east, up, east, and southeast. Give the wax to the witches. Go northwest, west, down, west, and northwest. Get the club. Pigeon to the Oracle, then go up to the Banquet Hall and put the club, lantern, and cap in the cauldron. 
+Go to the Secret Passage and go south, west, and up four times. Get the fly. Enter the Oracle when two eyes are open to go to the Frigid River Delta. Go northeast twice. Get the fly. Go southwest four times, then northwest. Ask Otto (the toad) for the spyglass. Give him the four flies. Return to the castle and put the spyglass in the cauldron. If any of the other 23 items aren't in there, put them in now. Say the magic word from the notebook. Now you can go all the way northwest from the outside of the castle, past the Perimeter Wall… and into Zork I! 
+For Your Amusement: 
+Swing the bat three times. 
+Drop something through the machicolation in the Parapet. 
+Answer yes when Otto asks you if you think you own the swamp. 
+Stay inside the castle instead of escaping through the Perimeter Wall at the end of the game. 
+
+For Your Amusement at various times: 
+Swear repeatedly.
+Look through any keyhole (such as the doors to the East or West Wings). 
+Examine the jester while wearing the goggles. 
+Cough anywhere other than the Icky Cave. 
+Wait for the jester to appear in the following places: at the Pits before you've used the bomb; in the Icy Cave; at the Delta location with Otto; in the Testing Room while you are turned into something else. 
+Point the wand at a chess piece, the bedbug, a fly, the brogmoid, the jester, one of the witches, the executioner, a unicorn, and Otto. In Otto's case, wait around until the magic wears off, too.
+Drink the potion and listen to the various elm trees outside the castle, the birch at the Hollow (in the Fjord area), the pine at Quarry's Edge, the spenseweed in the tank, the large and small lily pads in the Delta, the flower, and the roots below the world. 
+Drop the perch out of the Gondola in mid-air, or into the abyss from Under the World, or into the Oubliette, or over the fence at North of Anthar (south of Flathead Stadium); then pigeon to it. 
+Sing a lullaby to an inanimate object, when the jester is around, and when no other character is around. 
+Try these commands: date, time (after 1000 turns), turn around, hello sailor, tip the jester (when he's present), remove hand (other than from the waldo hole), count eyes (while not holding the amulet). 
+
+Encyclopedia entries:
+Illustrated: Dimwit Flathead, Megaboz, Flatheadia, the FrobozzCo Building, Brogmoidism, Zilbeetha, Jester, Four Fantastic Flies of Famathria. 
+People: Boswell Barwell, Frobesius Fublius, Entharion, Korboz, Gumboz, Zorbius Blattus, Zylo Pickthorn, Belboz, Davmar, Duncanthrax, Wurb Flathead, Ursula Flathead, and Saints Foobus, Bovus, Quakko, Wiskus, Honko, Balhu. 
+Places: Fublio Valley, Fenshire, Quilbozza Beach, Flathead Ocean, Frigid River, Frigid River Valley, Mirror Lake, Eastlands, Westlands, Froblo Park, Borphee, Pheebor, Flood Control Dam #3, Lake Flathead, Largoneth Castle, Egreth Castle, Mount Foobia, Land of Shadow, Rockville Estates, Royal Museum, Mareilon, Antharia, Flathead Stadium, Gray Mountains, Flathead Mountains, Zorbel Pass, Thriff, Gurth, Miznia, Mithicus, Fields of Frotzen, Port Foozle, Frobozz, Aragain Falls, Flathead Fjord, Great Underground Empire. 
+Events: Diablo Massacre, Zucchini Wars, Treaty of Znurg, Battle of Ragweed Gulch, Endless Fire, Granola Wars. 
+Brief entries: Peggleboz, Tower of Bozbar, Snarfem, Double Fanucci, Oracle of Bargth, Inquisition, Encyclopaedia Frobozzica, Borphbelly Stew, Jewel of Jerrimore, zorkmid, bloit, chess, the Curse, Curse Day, brogmoid, grue, hellhound, Mithican chameleon, Polar Gumffbeast, spenseweed, fungus, Wishyfoo, Prevaricon, Veritassi, Great Underground Highway, FrobozzCo International, Enchanters Guilde, magic potion, magic wand, rebus. 
+Just for fun: Myself, Zork, Infocom, Steve Meretzky. 
+
+Bugs
+For further entertainment, you may be interested in these lists of bugs in Zork Zero:
+Nathan Simpson , Graeme Cree , XyzzyNews 
+ 
+Back to the Infocom index
+Back to the games index 
+
+Last updated: 7/21/2014
+
